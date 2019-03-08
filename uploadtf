@@ -1,0 +1,11 @@
+cp ./lambda_test.py ./tensorflow1_0_0/lambda_test.py
+cp ./NNtf4.py ./tensorflow1_0_0/NNtf4.py
+cp ./NNtf5.py ./tensorflow1_0_0/NNtf5.py
+cp ./NNtfpt.py ./tensorflow1_0_0/NNtfpt.py
+cp ./CNNtf.py ./tensorflow1_0_0/CNNtf.py
+cp ./CNNtf3.py ./tensorflow1_0_0/CNNtf3.py
+cp ./s3func.py ./tensorflow1_0_0/s3func.py
+cd ./tensorflow1_0_0 && zip -r funcz.zip * && cd ../
+cp ./tensorflow1_0_0/funcz.zip ./funcz.zip
+rm ./tensorflow1_0_0/funcz.zip
+python s3uploadfile.py funcz.zip

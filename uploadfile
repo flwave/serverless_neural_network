@@ -1,0 +1,2 @@
+zip -r funcz.zip s3func.py util.py ddbfunc.py NN2.py NN_SFN_util.py NN_util_s.py timetest.py lambda_test.py
+python s3uploadfile.py funcz.zip
