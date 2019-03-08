@@ -7,6 +7,7 @@
 
 This repository contains source code to run neural network training on Amazon Web Servers (AWS) Lambda serverless environment. 
 The source code is used for the experiments in the following paper:
+
 [L. Feng, P. Kudva, D. Da Silva and J. Hu, "Exploring Serverless Computing for Neural Network Training," IEEE International Conference on Cloud Computing (IEEE Cloud), 2018](https://ieeexplore.ieee.org/document/8457817)
 
 ## Prerequisite
