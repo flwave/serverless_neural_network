@@ -80,7 +80,7 @@ To do hyperparameter tuning, uncomment the line after "4. For hyperparameter tun
 
 The traces will be in the folder named "timestamp" in your S3 bucket.
 
-##Notes:
+## Notes:
 
 • Running the codes will generate many AWS Lambda events. It is possible that AWS Lambda will miss some events. If this happened, 
 A folder named "error" will be created. If this frequently happens, please change to another AWS region.
